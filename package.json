@@ -1,0 +1,18 @@
+{
+  "name": "autorefresh",
+  "version": "0.0.1",
+  "homepage": "https://github.com/anoopchaurasia/autorefresh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anoopchaurasia/autorefresh"
+  },
+  "author": {
+    "name": "anoop",
+    "email": "anoop26667@gmail.com"
+  },
+  "dependencies": {
+    "hound": "^1.0.4",
+    "socket.io": "^1.0.4"
+  },
+  "main": "start.js"
+}

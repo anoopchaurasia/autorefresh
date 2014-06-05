@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "autoload",
+  "description": "This extension will auto load page on file change.",
+  "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "page url on which this extension load. eg. https://www.google.com/*"
+            ],
+            "js": [
+                "js/insertScript.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "page url on which this extension load. eg. https://www,google.com/*"
+    ]
+}
