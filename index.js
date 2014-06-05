@@ -16,7 +16,7 @@ function register(){
 	function informClient(filepath){
 		var sockets = io.sockets.sockets;
 		sockets.forEach(function(socket){
-			socket.emit("filerefresh": {filepath: filepath});
+			socket.emit("filerefresh", {filepath: filepath});
 		});
 	}
 
